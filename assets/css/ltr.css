@@ -1,0 +1,153 @@
+
+body {
+  font-family: system-ui;
+}
+.dir-ltr ,
+.owl-carousel{
+  direction: ltr;
+
+}
+.course-container {
+  direction: ltr;
+}
+.dropdown-menu ,
+.select2-container .select2-dropdown .select2-results ul .select2-results__option,
+.form-style .form-control {
+  text-align: left;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  width: 20px;
+  height: 20px;
+  right:25px;
+  position: absolute;
+}
+label.container-radio {
+  padding-left: 34px !important;
+}
+
+
+
+.accordion-lecture .panel-default>.panel-heading a span:last-child ,
+.accordion-lecture .row-lecture a span,
+.traniee-section .details-container h4 .rate-inline{
+  float: right;
+}
+.nav-pills>li,
+.rating-tab .progress-line .progress .progress-bar {
+  float: left
+}
+
+
+.about-us .imgSec:after {
+  right: 30px;
+  left: unset;
+}
+.btn-theme i {
+    margin-right: 10px;
+   
+}
+.btn-theme .fa-arrow-left {
+  transform: rotate(180deg);
+}
+.btn-theme.btn-more {
+  right: 10px;
+  left: unset
+}
+.arrow-img {
+  transform: rotate(180deg);
+}
+.breadcrumb-list-horizontal li:not(:last-child) a:after {
+  padding-right: 0;
+  padding-left: 10px;
+  content: "\f105";
+}
+.box-style-lession:before {
+  left: -120px;
+  right: unset;
+  transform: rotate(180deg);
+}
+.vision-tab li:before {
+  right: unset;
+  left: -25px;
+}
+.sidebar-course-details ul.list-item li:before,
+.about-us ul li:before {
+  right: unset;
+  left: -20px;
+}
+.subtitle {
+  padding-right: 0;
+  padding-left: 38px;
+}
+.course-container.last-news .details-body h5 span.pull-left {
+  float: right!important;
+}
+.footer .container .links-footer ul li::before {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.checkmark {
+  left :5px;
+  right :unset;
+}
+.sidebar-profile {
+  padding-right: 3px;
+}
+.sidebar-profile .sidebar-profile-container .sidebar-profile-header .collapse-btn {
+  right: 10px;
+}
+.container-profile.collapse-profile .sidebar-profile .sidebar-profile-container .sidebar-profile-header .collapse-btn {
+  right: 5px;
+}
+@media (min-width: 768px){
+  .navbar-nav {
+    padding-left: 40px;
+}
+.navbar-header ,
+.navbar-nav,
+.navbar-left,
+.navbar-nav>li{
+    float: left !important;
+}
+.navbar-right {
+  float: right!important;
+}
+}
+.search-card {
+  padding-left: 10px;
+  margin-left: 15px;
+  border-left: 2px solid #bfbfbf;
+}
+.navbar .navbar-brand img {
+  margin-right: 10px;
+}
+.SidebarContainer {
+  right: -130%;
+}
+
+  .SidebarContainer .OverLay {
+    right: -130%;
+      transition: all .5s;
+  }
+
+  .SidebarContainer.active .OverLay {
+    right: 0;
+      transition: all .5s;
+  }
+
+  .SidebarContainer .SidebarContent {
+    right: -130%;
+      transition: all .5s;
+  }
+
+  .SidebarContainer.active .SidebarContent {
+    right: 0;
+      transition: all .5s;
+  }
+  .SidebarContainer .SidebarContent .SidebarBody .rowItemcart .RemoveItem {
+    right: 10px;
+  }
+
