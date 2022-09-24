@@ -22,3 +22,7 @@ hiddenBtn.addEventListener('change', function() {
         chooseBtn.innerText = 'Choose';
     }
 });
+
+
+
+/*********************************/
