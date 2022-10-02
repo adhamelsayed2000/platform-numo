@@ -50,9 +50,8 @@
                 <img class="" src="assets/images/calender-top.png" alt="">
                 </div>
         </div>
-
-
     </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
@@ -98,7 +97,7 @@
                     <li><a class="dropdown-item" href="#">Another action</a></li>
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-                </div>
+            </div>
             
             <form class="d-flex">
                 <!-- <input class="form-control me-2 " type="search"  placeholder="Search" aria-label="Search"> -->
@@ -191,38 +190,8 @@
         <div class="row mt-4 ms-4">
             <div class="col-12 col-lg-3 d-flex flex-column justify-content-start">
                 <h6>الاقسام</h6>
-                <div class="btn-group btn-dropdown-subject mt-2">
-                    <button type="button" class="bg-transparent rounded  w-100" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="visually-hidden">Toggle Dropdown</span>
-                        <div class="d-flex justify-content-end align-items-center me-2">
-                            <img src="assets/images/icon/Iconly-Light-Arrow - Down 2.png" class=" " alt="">
-                        </div>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li>ادارة الاعمال</li>
-                    
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 d-flex flex-column justify-content-start">
-                <h6>المستوى</h6>
-                <div class="btn-group btn-dropdown-subject mt-2">
-                    <button type="button" class="bg-transparent rounded  w-100" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="visually-hidden">Toggle Dropdown</span>
-                        <div class="d-flex justify-content-end align-items-center me-2">
-                            <img src="assets/images/icon/Iconly-Light-Arrow - Down 2.png" class=" " alt="">
-                        </div>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li>ادارة الاعمال</li>
-                    
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 d-flex flex-column justify-content-start">
-                <h6>لتصنيف</h6>
-                <div class="px-app px-dropdown">
-                    <div class="px-dropdown-input">
+                <div class="px-app px-dropdown h-100">
+                    <div class="px-dropdown-input ">
                         <input type="text" readonly value="Select">
                         <div class="d-flex justify-content-end align-items-center me-2">
                             <img src="assets/images/icon/Iconly-Light-Arrow - Down 2.png" class=" " alt="">
@@ -230,9 +199,141 @@
                     </div>
                     <div class="px-dropdown-panel">
                         <p data-value="value1">ادارة الاعمال</p>
-                        <p data-value="value2">Vestibulum Consequat</p>
-                        <p data-value="value3">Curabitur Rutrum</p>
-                        <p data-value="value4">Maecenas Quis Mi</p>
+                        <p data-value="value2">البرمجة العامة</p>
+                        <p data-value="value3">اللغات</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 d-flex flex-column justify-content-start">
+                <h6>المستوى</h6>
+                <div class="px-app px-dropdown h-100">
+                    <div class="px-dropdown-input">
+                        <input type="text" readonly value="Select">
+                        <div class="d-flex justify-content-end align-items-center me-2">
+                            <img src="assets/images/icon/Iconly-Light-Arrow - Down 2.png" class=" " alt="">
+                        </div>
+                    </div>
+                    <div class="px-dropdown-panel">
+                        <p data-value="value1">المبتدئ</p>
+                        <p data-value="value2">المتوسط</p>
+                        <p data-value="value3">الخبير</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 d-flex flex-column justify-content-start">
+                <h6>لتصنيف</h6>
+                <div class="px-app px-dropdown h-100">
+                    <div class="px-dropdown-input">
+                        <input type="text" readonly value="Select">
+                        <div class="d-flex justify-content-end align-items-center me-2">
+                            <img src="assets/images/icon/Iconly-Light-Arrow - Down 2.png" class=" " alt="">
+                        </div>
+                    </div>
+                    <div class="px-dropdown-panel">
+                        <p data-value="value1">100-500</p>
+                        <p data-value="value2">500-1000</p>
+                        <p data-value="value3">1000-3000</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-start mt-5">
+            <div class="col-lg-3 position-relative ms-2 rounded-start me-0 pe-0">
+                <a href="#">
+                    <img src="assets/images/hero-image.fill.size_1248x702.v1643723301.png" class="w-100 h-100" alt="">
+                    <a href="#" class="position-absolute ads-courses">
+                        الاكثر مبيعا
+                    </a>
+                </a>
+            </div>
+            <div class="col-lg-7 ms-0 px-4">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <div class="levels-courses w-25 d-flex justify-content-center align-items-center rounded ">
+                            <a href="#">
+                                جميع المستويات
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-end w-75 align-items-center ">
+                            <div onclick="liked()" class=" like rounded-circle  d-flex justify-content-center align-items-center" >
+                                <i class="fa-solid fa-heart" id="like" ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 mt-2 name-courses">
+                        <h5>دورة محلل ادارة الاعمال</h5>
+                        <p class=" mt-2">مهندس - احمد ابراهيم</p>
+                        
+                    </div>
+                    <div class="d-flex flex-row row info-courses mt-3">
+                        <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                            <img src="assets/images/TimeCircle.png"  alt="">
+                            <p class="w-75 ms-2">مده الكورس 8 ساعات</p>
+                        </div>
+                        <div class="col-lg-2 d-flex justify-content-center align-items-center">
+                            <img src="assets/images/Paper.png"  alt="">
+                            <p class="w-75 ms-2">3 دروس</p>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                            <img src="assets/images/calendar.png"  alt="">
+                            <p class="w-75 ms-2">الكورس يبدا 12/5/2022</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-5 price-courses align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center rounded">SAR 12.50</a>
+                        <p class="text-decoration-line-through text-muted ms-2">SAR 12.50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-start mt-3">
+            <div class="col-lg-3 position-relative ms-2 rounded-start me-0 pe-0">
+                <a href="#">
+                    <img src="assets/images/hero-image.fill.size_1248x702.v1643723301.png" class="w-100 h-100" alt="">
+                    <a href="#" class="position-absolute ads-courses">
+                        الاكثر مبيعا
+                    </a>
+                </a>
+            </div>
+            <div class="col-lg-7 ms-0 px-4">
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <div class="levels-courses w-25 d-flex justify-content-center align-items-center rounded ">
+                            <a href="#">
+                                جميع المستويات
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-end w-75 align-items-center ">
+                            <div onclick="liked()" class=" like rounded-circle  d-flex justify-content-center align-items-center" >
+                                <i class="fa-solid fa-heart" id="like" ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 mt-2 name-courses">
+                        <h5>دورة محلل ادارة الاعمال</h5>
+                        <p class=" mt-2">مهندس - احمد ابراهيم</p>
+                        
+                    </div>
+                    <div class="d-flex flex-row row info-courses mt-3">
+                        <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                            <img src="assets/images/TimeCircle.png"  alt="">
+                            <p class="w-75 ms-2">مده الكورس 8 ساعات</p>
+                        </div>
+                        <div class="col-lg-2 d-flex justify-content-center align-items-center">
+                            <img src="assets/images/Paper.png"  alt="">
+                            <p class="w-75 ms-2">3 دروس</p>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                            <img src="assets/images/calendar.png"  alt="">
+                            <p class="w-75 ms-2">الكورس يبدا 12/5/2022</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-5 price-courses align-items-center">
+                        <a href="#" class="d-flex justify-content-center align-items-center rounded">SAR 12.50</a>
+                        <p class="text-decoration-line-through text-muted ms-2">SAR 12.50</p>
                     </div>
                 </div>
             </div>
@@ -281,6 +382,12 @@ dropdownList.forEach((item) => {
 initpXDropdown();
 
 </script>
+<script>
+    function liked(){
+        document.getElementById('like').style.color = 'red'; // forecolor
+    }
+</script>
+
 
 </body>
 </html>

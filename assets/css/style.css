@@ -230,13 +230,13 @@ input[type="file"] {
   height: 50%;
   text-align: center;
 }
-/********************** index student*****************************************/
+/********************** profile student*****************************************/
 /* aside */
 .btn-aside {
   height: 55px;
   color: #000;
 }
-div.w-75 > a:nth-child(1) {
+.btn-aside div a {
   color: #000;
 }
 
@@ -249,7 +249,7 @@ div.w-75 > a:nth-child(1) {
 .profile p {
   font-size: 12px;
 }
-/********subject***********/
+/********subject-stu***********/
 .btn-search-cours {
   background-color: var(--mainColor);
   color: #fff;
@@ -310,7 +310,7 @@ label:hover ~ label {
   background-color: var(--mainColor);
   color: #fff;
 }
-/***********************/
+/******** msg-stu***************/
 button.border-0:nth-child(3)
   > div:nth-child(1)
   > div:nth-child(2)
@@ -335,7 +335,7 @@ button.border-0:nth-child(3)
   width: 45px;
   height: 45px;
 }
-/***********************************************/
+/******************* courser-stu****************************/
 .btn-dropdown-subject button {
   border: 1px solid #d0d0d2;
   height: 35px;
@@ -351,6 +351,8 @@ button.border-0:nth-child(3)
 }
 
 .px-dropdown {
+  border: 1px solid #d0d0d2;
+  border-radius: 5px;
   position: relative;
   width: var(--px-dropdown-width);
   height: var(--px-dropdown-height);
@@ -359,8 +361,7 @@ button.border-0:nth-child(3)
 .px-dropdown-input {
   width: 100%;
   height: 100%;
-  border: 1px solid;
-  border-color: var(--px-dropdown-color-border);
+  border: 1px solid #d0d0d2;
   border-radius: 5px;
   background-color: var(--px-dropdown-color-bg);
   display: flex;
@@ -398,8 +399,7 @@ button.border-0:nth-child(3)
   width: 100%;
   left: 0;
   top: calc(100% + 50px);
-  border: 1px solid;
-  border-color: var(--px-dropdown-color-border);
+  border: 1px solid #d0d0d2;
   border-radius: 5px;
   background-color: var(--px-dropdown-color-panelbg);
   overflow: hidden;
@@ -423,4 +423,143 @@ button.border-0:nth-child(3)
 
 .px-dropdown-panel p:hover {
   background-color: var(--px-dropdown-color-panelhover);
+}
+
+.ads-courses {
+  top: 5%;
+  right: 8%;
+  background-color: #ff8e0c;
+  width: 87px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+}
+#like {
+  color: #b3b3bc;
+}
+.like {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 40px;
+  height: 40px;
+}
+
+.levels-courses {
+  background-color: #eaf4fe;
+  height: 33px;
+}
+.name-courses p {
+  color: #000;
+  opacity: 0.4;
+}
+
+.info-courses > div p {
+  font-size: 13px;
+}
+.price-courses a {
+  background-color: var(--mainColor);
+  color: #fff;
+  width: 130px;
+  height: 35px;
+}
+/************info courses***********************/
+.category-courses a {
+  background-color: #eaf4fe;
+  color: #1b71cf;
+}
+.category-courses a:hover {
+  background-color: #eaf4fe;
+  color: #1b71cf;
+}
+
+.rated-courses a:nth-child(1) {
+  background-color: #ff8e0c;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+}
+.rated-courses a:nth-child(2) {
+  background-color: var(--mainColor);
+  color: #fff;
+  width: 55px;
+}
+.star-active {
+  color: #ffb60c !important;
+}
+.course-content {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 60px;
+}
+.about-course a {
+  height: 35px;
+  background-color: #eaf1f9;
+  color: #b3b3bc;
+}
+.about-course a:focus {
+  background-color: var(--mainColor);
+  color: #fff;
+}
+
+.stut-course {
+  background-color: rgba(43, 134, 214, 7%);
+  height: 70px !important;
+}
+.stut-course div progress {
+  accent-color: green;
+}
+.stut-course div:nth-child(1) p:nth-child(1) {
+  font-size: 17px;
+}
+.stut-course div:nth-child(1) p:nth-child(2) {
+  font-size: 12px;
+}
+.stut-course div:nth-child(1) p:nth-child(2) span {
+  font-size: 12px;
+  color: #1b71cf;
+}
+
+/*****/
+.course {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 500px;
+}
+.course div:nth-child(1) div:nth-child(2) a:only-of-type {
+  width: 100%;
+  background-color: var(--mainColor);
+  color: #fff;
+  height: 45px;
+}
+.interaction-course a {
+  height: 45px;
+  color: #d0d0d2;
+}
+/* .interaction-course a:nth-child(1):focus {
+  color: #fff;
+  background-color: var(--mainColor) !important;
+  border: 1px solid var(--mainColor) !important;
+}
+.interaction-course a:nth-child(1):focus i {
+  color: red;
+} */
+.list-info-course {
+  list-style: none;
+}
+.list-info-course li {
+  color: #d0d0d2;
+}
+.list-info-course li::before {
+  content: "\2022";
+  color: var(--mainColor); /* or whatever color you prefer */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  opacity: 1 !important;
+}
+.course-content-row div:nth-of-type(1) div.row {
+  background-color: rgb(288, 232, 236, 14%);
+  border: 1px solid #e1e1e1;
+  height: 60px !important;
+}
+.course-content-row div:nth-of-type(1) div.row div:nth-child(4) input:checked {
 }
