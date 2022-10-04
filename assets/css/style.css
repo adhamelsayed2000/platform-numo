@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Prosto One", cursive;
 }
 a {
   text-decoration: none;
@@ -556,10 +555,30 @@ button.border-0:nth-child(3)
   width: 1em;
   opacity: 1 !important;
 }
-.course-content-row div:nth-of-type(1) div.row {
+.course-content-row div:nth-of-type(1) div.row.rounded {
   background-color: rgb(288, 232, 236, 14%);
   border: 1px solid #e1e1e1;
-  height: 60px !important;
 }
-.course-content-row div:nth-of-type(1) div.row div:nth-child(4) input:checked {
+
+/***************** certificate search******************************/
+/***************************  certificate  ***************************************/
+.btn-cartificate {
+  background-color: transparent;
+  border: 1px solid var(--mainColor);
+  text-align: center;
+  margin-top: 5px;
+  width: 85px;
+  height: 35px;
+}
+/**********************my appointments****************************/
+.section-table {
+  width: 77%;
+}
+.my-appointments {
+  border: 1px solid #d0d0d2;
+}
+.my-appointments tr th {
+  background-color: var(--mainColor);
+  color: #fff;
+  border-color: #d0d0d2;
 }
