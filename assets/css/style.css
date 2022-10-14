@@ -19,6 +19,9 @@ h5,
 h6 {
   font-family: var(--mainFont-family);
 }
+input {
+  text-indent: 10px;
+}
 /****************************Variables*******************************/
 @import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
 
@@ -583,4 +586,40 @@ button.border-0:nth-child(3)
   border-color: #d0d0d2;
 }
 /**********************plau courses*****************************/
-
+/********************************disussions*************************************/
+.disussions div:nth-of-type(1) {
+  height: 70px;
+}
+.disussions div:nth-of-type(1) div:nth-of-type(2) a {
+  height: 50px;
+  width: 50% !important;
+  font-size: 0.9rem;
+  color: var(--mainColor) !important;
+  border: 1px solid var(--mainColor) !important;
+}
+.disussions-img {
+  width: 50px !important;
+  height: 50px !important;
+}
+/* .disussions div:nth-of-type(2) div:nth-of-type(1) {
+  height: 104px;
+} */
+.comment-disussions {
+  height: 50px;
+}
+.comment-disussions div:nth-of-type(3) a {
+  background-color: var(--mainColor);
+  color: #fff;
+}
+/*******************************play-courses-activites-**************************************/
+.activites-play div a {
+  height: 50px;
+}
+.activites-play div a:focus {
+  color: var(--mainColor) !important;
+  border-bottom: 1px solid var(--mainColor);
+}
+.activites-play div a:hover {
+  color: var(--mainColor) !important;
+  border-bottom: 1px solid var(--mainColor);
+}
